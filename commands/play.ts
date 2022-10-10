@@ -9,7 +9,7 @@ import { playlistPattern } from "../utils/patterns";
 export default {
   name: "play",
   cooldown: 3,
-  aliases: ["p"],
+  aliases: ["p","ش","شغل","شغلي"],
   description: i18n.__("play.description"),
   permissions: ["CONNECT", "SPEAK", "ADD_REACTIONS", "MANAGE_MESSAGES"],
   async execute(message: Message, args: string[]) {

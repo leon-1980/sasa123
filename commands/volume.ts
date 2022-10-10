@@ -5,7 +5,7 @@ import { bot } from "../index";
 
 export default {
   name: "volume",
-  aliases: ["v"],
+  aliases: ["v","vol"<"ص","صوت"],
   description: i18n.__("volume.description"),
   execute(message: Message, args: Array<any>) {
     const queue = bot.queues.get(message.guild!.id);
